@@ -10,6 +10,9 @@ Used in this project: http://sebastiannilsson.com/k/projekt/selfbalancing-robot/
 
 --------------------------------------------------------------------------------
 To use the library:
+
 1. Download the zip and uncompress the downloaded file. 
+
 2. Copy the folder to the Arduino sketchbook\libraries folder.
+
 3. Rename it to FIR
