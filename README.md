@@ -16,3 +16,10 @@ To use the library:
 2. Copy the folder to the Arduino sketchbook\libraries folder.
 
 3. Rename it to FIR
+
+
+ 
+## Support my creation of open source software:
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=sebnil&url=https://github.com/sebnil/FIR-filter-Arduino-Library)
+
+<a href='https://ko-fi.com/A0A2HYRH' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
