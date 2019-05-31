@@ -37,8 +37,8 @@ float FIR::process(float in) {
 
   values[k] = in;				// store the input of the routine (contents of the 'in' variable) in the array at the current pointer position
 
-    for (int i=0; i<FILTERTAPS; i++) {					// we step through the array
-    out += coef[i] * values[(i + k) % FILTERTAPS];	// ... and add and multiply each value to accumulate the output
+  for (int i=1; i<=FILTERTAPS; i++) {					// we step through the array
+    out += coef[i-1] * values[(i + k) % FILTERTAPS];	// ... and add and multiply each value to accumulate the output
     //  (i + k) % filterTaps creates a cyclic way of getting through the array
   }
 
